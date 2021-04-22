@@ -7,10 +7,10 @@ VAR
 BEGIN
 
     FOR i FROM 0 TO length.v1-1 STEP 1  DO
-        FOR j FROM i TO length.v2-1 STEP 1 DO
-     d :=d +v1[i]*v2[j]
+   
+     d :=d +v1[i]*v2[i]
     END_FOR
-    END_FOR
+
 END
 ALGORITHM are_orthogonal
 VAR 
